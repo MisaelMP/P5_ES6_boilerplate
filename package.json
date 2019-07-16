@@ -1,0 +1,36 @@
+{
+  "name": "steering_p5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-block-scoping": "^7.4.4",
+    "@babel/plugin-transform-for-of": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "tinyify": "^2.5.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.1.4",
+    "p5": "^0.8.0",
+    "serve": "^11.1.0"
+  }
+}
