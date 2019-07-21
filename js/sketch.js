@@ -22,7 +22,6 @@ global.P$ = new P5(function drawSteering(p) {
 		for (let dot of points) {
 			let pt = dot
 			let steering = new Steering(pt.x, pt.y);
-			console.log(Steering);
 			steerings.push(steering);
 			// stroke(255);
 			// strokeWeight(8);
